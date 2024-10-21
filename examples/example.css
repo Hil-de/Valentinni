@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IN:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    background-color:#fff;
+    color: #fff;
+}
+
+.intro{
+    width: 60%;
+    background-color: aqua;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro-text{
+    position: relative;
+    width: 50%;
+    padding: 30px;
+}
+
+.intro-text > h2{
+    margin-bottom: 5rem;
+    font-family: "Arsenal SC", sans-serif;
+    font-style: normal;
+    font-size: 35px;
+}
+
+.intro-text > button{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 2rem;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    background-color: #697565;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.intro-image{
+    position: relative;
+    width: 50%;
+    height: auto;
+}
+
+.intro-image > img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
